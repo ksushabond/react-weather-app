@@ -12,6 +12,7 @@ export default function Weather() {
               placeHolder="Search for a city"
               className="form-control"
               autoComplete="off"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -24,17 +25,21 @@ export default function Weather() {
         </div>
       </form>
       <h1>Odessa</h1>
-      <ul>
-        <li>Tuesday 15:00</li>
-        <li>Sunny</li>
-      </ul>
-      <div className="row">
+
+      <h2>
+        Tuesday 15:00
+        <br />
+        Sunny
+      </h2>
+
+      <div className="row mt-3">
         <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="Sunny"
           />
-          10°C
+          <span className="temperature">10</span>
+          <span className="unit">°C</span>
         </div>
         <div className="col-6">
           <ul>
