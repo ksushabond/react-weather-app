@@ -28,7 +28,7 @@ export default function Weather() {
         <li>Tuesday 15:00</li>
         <li>Sunny</li>
       </ul>
-      <div clasName="row">
+      <div className="row">
         <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
@@ -44,7 +44,6 @@ export default function Weather() {
           </ul>
         </div>
       </div>
-      Hello from Weather
     </div>
   );
 }
