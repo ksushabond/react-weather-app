@@ -6,3 +6,6 @@
   font-size: 12px;
   margin: 10px 0;
 }
+.App a {
+  text-decoration: none;
+}
