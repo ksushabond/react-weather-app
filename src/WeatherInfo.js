@@ -21,11 +21,13 @@ export default function WeatherInfo(props) {
           <span className="unit">°C</span>
         </div>
         <div className="col-6">
-          <ul>
-            <li>{props.data.description}</li>
-            <li>Humidity: {props.data.humidity} %</li>
-            <li>Wind: {Math.round(props.data.wind)} km/h</li>
-          </ul>
+          <div className="Wreapper">
+            <ul>
+              <li>{props.data.description}</li>
+              <li>Humidity: {props.data.humidity} %</li>
+              <li>Wind: {Math.round(props.data.wind)} km/h</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

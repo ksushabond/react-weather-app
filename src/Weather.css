@@ -1,9 +1,5 @@
 .Weather {
-  background: linear-gradient(
-    180.3deg,
-    rgb(221, 221, 221) 5.5%,
-    rgb(110, 136, 161) 90.2%
-  );
+  background-color: #d2d6d2;
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid #dadde1;
   padding: 20px;
@@ -27,10 +23,16 @@
   margin-left: 10px;
 }
 .Weather input.form-control {
-  border: 1px solid gray;
+  border: 1px solid #71a0a5;
   background: none;
   outline: none;
   color: inherit;
+}
+.Weather input.btn {
+  background: #7da2a6;
+  border: 1px solid #71a0a5;
+  border: none;
+  color: white;
 }
 
 .Weather .temperature {
@@ -52,7 +54,10 @@
   display: inline-block;
   vertical-align: text-bottom;
 }
-
+.Weather .Wreapper {
+  background: #71a0a5;
+  padding: 10px;
+}
 .Weather li {
   list-style-type: none;
   color: white;
