@@ -78,7 +78,7 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="current"
-                className="btn btn-outline-secondary"
+                className="btn btn-outline-secondary d-none d-md-inline-block"
                 onClick={getCurrentLocation}
               />
             </div>
